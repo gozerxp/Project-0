@@ -5,7 +5,6 @@
     android:background="#ffffffff">
 
     <ScrollView
-
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
@@ -13,49 +12,48 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="vertical"
-            android:gravity="center_horizontal"
->
+            android:gravity="center_horizontal">
 
-    <TextView
-        style="@style/Header"
-        android:text="@string/main_text"
-        android:id="@+id/textView" />
+            <TextView
+                style="@style/Header"
+                android:text="@string/main_text"
+                android:id="@+id/textView" />
 
-    <Button
-        style="@style/Orange_Buttons"
-        android:text="@string/spotify"
-        android:id="@+id/button1"
-        android:onClick="displayToast" />
+            <Button
+                style="@style/Orange_Buttons"
+                android:text="@string/spotify"
+                android:id="@+id/button1"
+                android:onClick="displayToast" />
 
-    <Button
-        style="@style/Orange_Buttons"
-        android:text="@string/scores"
-        android:id="@+id/button2"
-        android:onClick="displayToast" />
+            <Button
+                style="@style/Orange_Buttons"
+                android:text="@string/scores"
+                android:id="@+id/button2"
+                android:onClick="displayToast" />
 
-    <Button
-        style="@style/Orange_Buttons"
-        android:text="@string/library"
-        android:id="@+id/button3"
-        android:onClick="displayToast" />
+            <Button
+                style="@style/Orange_Buttons"
+                android:text="@string/library"
+                android:id="@+id/button3"
+                android:onClick="displayToast" />
 
-    <Button
-        style="@style/Orange_Buttons"
-        android:text="@string/build_it_bigger"
-        android:id="@+id/button4"
-        android:onClick="displayToast" />
+            <Button
+                style="@style/Orange_Buttons"
+                android:text="@string/build_it_bigger"
+                android:id="@+id/button4"
+                android:onClick="displayToast" />
 
-    <Button
-        style="@style/Orange_Buttons"
-        android:text="@string/xyz"
-        android:id="@+id/button5"
-        android:onClick="displayToast" />
+            <Button
+                style="@style/Orange_Buttons"
+                android:text="@string/xyz"
+                android:id="@+id/button5"
+                android:onClick="displayToast" />
 
-    <Button
-        style="@style/Red_Buttons"
-        android:text="@string/capstone"
-        android:id="@+id/button6"
-        android:onClick="displayToast" />
-</LinearLayout>
+            <Button
+                style="@style/Red_Buttons"
+                android:text="@string/capstone"
+                android:id="@+id/button6"
+                android:onClick="displayToast" />
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>
