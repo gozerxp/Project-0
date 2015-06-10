@@ -5,4 +5,32 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Header" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+
+    </style>
+
+    <style name="Buttons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Orange_Buttons" parent="Buttons">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">#fff08c35</item>
+    </style>
+
+    <style name="Red_Buttons" parent="Buttons">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ffcf0000</item>
+    </style>
+
 </resources>
