@@ -24,11 +24,12 @@ public class MainActivity extends ActionBarActivity {
         CharSequence text = "You clicked " + buttonText + "!";
         int duration = Toast.LENGTH_SHORT;
 
-        if(mAppToast !=null){
+        if(mAppToast !=null) {
             mAppToast.cancel();
         }
 
         mAppToast = Toast.makeText(context,text, duration);
         mAppToast.show();
+
     }
 }
