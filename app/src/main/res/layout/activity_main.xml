@@ -18,42 +18,42 @@
             <TextView
                 style="@style/Header"
                 android:text="@string/main_text"
-                android:id="@+id/textView" />
+                android:id="@+id/txt_Header" />
 
             <Button
                 style="@style/Orange_Buttons"
                 android:text="@string/spotify"
-                android:id="@+id/button1"
+                android:id="@+id/btn_spotify"
                 android:onClick="displayToast" />
 
             <Button
                 style="@style/Orange_Buttons"
                 android:text="@string/scores"
-                android:id="@+id/button2"
+                android:id="@+id/btn_scores"
                 android:onClick="displayToast" />
 
             <Button
                 style="@style/Orange_Buttons"
                 android:text="@string/library"
-                android:id="@+id/button3"
+                android:id="@+id/btn_library"
                 android:onClick="displayToast" />
 
             <Button
                 style="@style/Orange_Buttons"
                 android:text="@string/build_it_bigger"
-                android:id="@+id/button4"
+                android:id="@+id/btn_build_it_bigger"
                 android:onClick="displayToast" />
 
             <Button
                 style="@style/Orange_Buttons"
                 android:text="@string/xyz"
-                android:id="@+id/button5"
+                android:id="@+id/btn_xyz"
                 android:onClick="displayToast" />
 
             <Button
                 style="@style/Red_Buttons"
                 android:text="@string/capstone"
-                android:id="@+id/button6"
+                android:id="@+id/btn_capstone"
                 android:onClick="displayToast" />
 
         </LinearLayout>
