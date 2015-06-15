@@ -8,8 +8,9 @@ import android.widget.Toast;
 /**
  * Created by Dan on 6/14/15.
  */
-public class MyToast {
-    private Toast mAppToast;
+public class theToast {
+
+    private Toast appToast;
 
     public void displayToast(View view, Context context) {
         Button button = (Button) view;
@@ -17,12 +18,12 @@ public class MyToast {
         CharSequence text = "You clicked " + buttonText + "!";
         int duration = Toast.LENGTH_SHORT;
 
-        if (mAppToast != null) {
-            mAppToast.cancel();
+        if (appToast != null) {
+            appToast.cancel();
         }
 
-        mAppToast = Toast.makeText(context, text, duration);
-        mAppToast.show();
+        appToast = Toast.makeText(context, text, duration);
+        appToast.show();
 
     }
 }

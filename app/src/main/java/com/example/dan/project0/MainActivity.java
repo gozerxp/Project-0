@@ -6,17 +6,16 @@ import android.view.View;
 
 public class MainActivity extends ActionBarActivity {
 
-    public MyToast toaster;
+    public theToast toaster;
 
     public void displayToast(View view) {
         toaster.displayToast(view, getApplicationContext());
-
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        toaster = new MyToast();
+        toaster = new theToast();
         setContentView(R.layout.activity_main);
     }
 
