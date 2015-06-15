@@ -1,35 +1,24 @@
 package com.example.dan.project0;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.content.Context;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
+
+    public MyToast toaster;
+
+    public void displayToast(View view) {
+        toaster.displayToast(view, getApplicationContext());
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        toaster = new MyToast();
         setContentView(R.layout.activity_main);
     }
 
-    private Toast mAppToast;
-
-    public void displayToast(View view) {
-        Button button = (Button)view;
-        String buttonText = button.getText().toString();
-        Context context = getApplicationContext();
-        CharSequence text = "You clicked " + buttonText + "!";
-        int duration = Toast.LENGTH_SHORT;
-
-        if(mAppToast !=null) {
-            mAppToast.cancel();
-        }
-
-        mAppToast = Toast.makeText(context,text, duration);
-        mAppToast.show();
-
-    }
 }
+
